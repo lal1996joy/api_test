@@ -1,0 +1,39 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:939 Starting new HTTPS connection (1): test.edianyao.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:433 https://test.edianyao.com:443 "POST /micro/hwauthcenteruser/centeruser/superlogin HTTP/1.1" 200 None
+INFO     root:test_login.py:31 验证码登录成功：OK
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 KOI8-R Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 MacCyrillic Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM866 Russian confidence = 0.051197981570774556
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM855 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-7 Greek confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1253 Greek confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Bulgarian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 TIS-620 Thai confidence = 0.16448969693081758
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-9 Turkish confidence = 0.4200314124887507
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+INFO     root:case_log.py:8 测试用例：test_user_login_normal
+INFO     root:case_log.py:9 url：https://test.edianyao.com/micro/hwauthcenteruser/centeruser/superlogin
+INFO     root:case_log.py:10 请求参数：{"username": "18245284815", "code": "191628", "loginType": "qlogin", "loginWhere": "edianyao", "province": "广东省", "city": "深圳市", "platform": "wxapp"}
+INFO     root:case_log.py:11 期望结果：0.0
+INFO     root:case_log.py:12 实际结果：{"code":0,"msg":null,"data":{"access_token":"d0e85c13-bf9b-4d75-87fa-dccb563abc59","token_type":"bearer","refresh_token":"fe06b608-4645-4964-86eb-f4587762ea53","expires_in":"86394","scope":"server","tenant_id":"1","companyCode":null,"nickName":"\uD83E\uDDF8ྀ小李小李锦鲤本鲤\uD83E\uDDF8ྀ","mobile":"18245284815","active":"true","avatar":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLpiayicf7Yqia7MjuB5sFRvQhQzzPIOTcdUB2AnrPWiaM0YsThCKlb9ib7y8wibwPFicY5zjMq0y3z82akA/132","storeId":null,"authCenterId":"3208260","serverId":"0","clerkType":null,"license":"made by hw","companyId":null,"storeNo":null,"user_id":"4803015","userType":"0","dept_id":null,"username":"18245284815","isNew":"0"}}

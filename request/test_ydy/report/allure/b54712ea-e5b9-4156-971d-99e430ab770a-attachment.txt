@@ -1,0 +1,4 @@
+DEBUG    root:db_user.py:25 select * from qyw_users where account = '18245284815'
+DEBUG    root:db_user.py:27 ((4803015, 0, '18245284815', 'mobile', 3208260, '阿白', 'https://ydystore.oss-cn-shenzhen.aliyuncs.com/hwfiles/HW-YDY-STORE-641610095160125.jpg', 1, '', '', '', '', '', 'none', '172.20.1.16', 1614912803, '', 0, '', 1608105936, 1614912803, '172.20.0.247', '', '深圳市', '广东省', 'ios', 'ydy', '79c2093eeaf5bb6ea4c4772e554b02c6', 16157982, 0, 0, None, 0, 0),)
+DEBUG    urllib3.connectionpool:connectionpool.py:939 Starting new HTTPS connection (1): test.edianyao.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:433 https://test.edianyao.com:443 "POST /micro/hwauthcenteruser/centeruser/register HTTP/1.1" 200 None

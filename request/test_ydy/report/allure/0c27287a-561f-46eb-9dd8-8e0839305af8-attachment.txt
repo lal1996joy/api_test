@@ -1,0 +1,8 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:939 Starting new HTTPS connection (1): test.edianyao.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:433 https://test.edianyao.com:443 "POST /micro/hwauthcenteruser/centeruser/superlogin HTTP/1.1" 200 None
+INFO     root:test_login.py:31 验证码登录成功：OK
+INFO     root:case_log.py:8 测试用例：test_user_login_normal
+INFO     root:case_log.py:9 url：https://test.edianyao.com/micro/hwauthcenteruser/centeruser/superlogin
+INFO     root:case_log.py:10 请求参数：{"username": "18245284815", "code": "191628", "loginType": "qlogin", "loginWhere": "edianyao", "province": "广东省", "city": "深圳市", "platform": "wxapp"}
+INFO     root:case_log.py:11 期望结果：0.0
+INFO     root:case_log.py:12 实际结果：{'code': 0, 'msg': None, 'data': {'access_token': 'd0e85c13-bf9b-4d75-87fa-dccb563abc59', 'token_type': 'bearer', 'refresh_token': 'fe06b608-4645-4964-86eb-f4587762ea53', 'expires_in': '86318', 'scope': 'server', 'tenant_id': '1', 'companyCode': None, 'nickName': '🧸ྀ小李小李锦鲤本鲤🧸ྀ', 'mobile': '18245284815', 'active': 'true', 'avatar': 'https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLpiayicf7Yqia7MjuB5sFRvQhQzzPIOTcdUB2AnrPWiaM0YsThCKlb9ib7y8wibwPFicY5zjMq0y3z82akA/132', 'storeId': None, 'authCenterId': '3208260', 'serverId': '0', 'clerkType': None, 'license': 'made by hw', 'companyId': None, 'storeNo': None, 'user_id': '4803015', 'userType': '0', 'dept_id': None, 'username': '18245284815', 'isNew': '0'}}
