@@ -18,7 +18,7 @@ def get_test_data(data_list, case_name):
             return case_data
 
 
-if __name__ == '__main__':
-    data_list = excel_to_list("test_ydy/test_user_data.xlsx", "TestUserLogin")
-    case_data = get_test_data(data_list, "test_qlogin_wrong")
-    print(case_data)
+# if __name__ == '__main__':
+#     data_list = excel_to_list("test_ydy/test_user_data.xlsx", "TestUserLogin")
+#     case_data = get_test_data(data_list, "test_qlogin_wrong")
+#     print(case_data)
