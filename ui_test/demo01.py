@@ -11,7 +11,6 @@ url = 'https://www.pyy365.cn/edyLS/dist/adminlogin'
 browser = webdriver.Chrome()
 browser.implicitly_wait(5)
 # 打开网页
-
 browser.get(url)
 # browser.maximize_window()
 # 当前网页标题
