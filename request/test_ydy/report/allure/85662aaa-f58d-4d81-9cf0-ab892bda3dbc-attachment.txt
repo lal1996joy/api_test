@@ -1,3 +1,0 @@
-DEBUG    urllib3.connectionpool:connectionpool.py:939 Starting new HTTPS connection (1): test.edianyao.com:443
-DEBUG    urllib3.connectionpool:connectionpool.py:433 https://test.edianyao.com:443 "POST /micro/hwauthcenteruser/centeruser/superlogin HTTP/1.1" 200 None
-INFO     root:test_login.py:34 验证码登录成功：OK

@@ -1,9 +1,0 @@
-DEBUG    root:test_register.py:31 手机号：18842326682
-DEBUG    root:db_user.py:43 select * from qyw_users where account = '18842326682'
-DEBUG    root:db_user.py:45 ()
-DEBUG    urllib3.connectionpool:connectionpool.py:939 Starting new HTTPS connection (1): test.edianyao.com:443
-DEBUG    urllib3.connectionpool:connectionpool.py:433 https://test.edianyao.com:443 "POST /micro/hwauthcenteruser/centeruser/register HTTP/1.1" 200 None
-INFO     root:test_register.py:44 注册成功：OK
-DEBUG    root:db_user.py:43 select * from qyw_users where account = '18842326682'
-DEBUG    root:db_user.py:45 ((4708406, 0, '18842326682', 'mobile', 4811531, 'ydy_18842326682', '', 1, '', '', '', '', '', 'none', '172.20.1.16', 1614931058, '', 0, '', 1614931058, 1614931058, '172.20.1.16', '', '深圳市', '广东省', 'wxapp', 'ydy', '1bc8c7602b2e35d2e99817e338fee944', 0, 0, 0, None, 1614931058471, 0),)
-DEBUG    root:db_user.py:30 delete from qyw_users where account = '18842326682'
